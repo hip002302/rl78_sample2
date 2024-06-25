@@ -1,17 +1,13 @@
 品質記録情報
-2024年6月19日 14:51:35
+2024年6月25日 14:52:48
 
 ------ ビルド開始(RL78_Sample2, DefaultBuild) ------
 ------ ビルド終了(エラー:0個, 警告:0個)(RL78_Sample2, DefaultBuild) ------
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe cg_src\r_cg_doc.c -cpu=S3 -cref=DefaultBuild -obj_path=DefaultBuild "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F1058A.DVF" -g -g_line -Osize -I cg_src -I include -I . -c -msg_lang=japanese
-W0511186:CC-RL V1のオプション"-Osize"の評価期間は残り53日です。評価期間経過後は、暗黙に"-Olite"指定に変更されます。引き続き"-Osize"を利用したい場合は製品の購入をご検討ください。
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe cg_src\r_cg_doc_user.c -cpu=S3 -cref=DefaultBuild -obj_path=DefaultBuild "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F1058A.DVF" -g -g_line -Osize -I cg_src -I include -I . -c -msg_lang=japanese
-W0511186:CC-RL V1のオプション"-Osize"の評価期間は残り53日です。評価期間経過後は、暗黙に"-Olite"指定に変更されます。引き続き"-Osize"を利用したい場合は製品の購入をご検討ください。
 
 
 --- SHA1 hash value of output files ---
-C:\Users\k_tasaka\Desktop\組み込み実習3\RL78_Sample2\DefaultBuild\RL78_Sample2.abs: 6113f154bc1fb439fb85ed55502a2ac6755f82a9
-C:\Users\k_tasaka\Desktop\組み込み実習3\RL78_Sample2\DefaultBuild\RL78_Sample2.hex: 637ee9d33f06ffb432f45e26eb3f78d78985960c
+C:\Users\k_tasaka\Desktop\組込み\rl78_sample2\RL78_Sample2\DefaultBuild\RL78_Sample2.abs: 1969a34df1a0cbced7f64ffc28c95a20a78ec9c8
+C:\Users\k_tasaka\Desktop\組込み\rl78_sample2\RL78_Sample2\DefaultBuild\RL78_Sample2.hex: 42b82f7ca838e25790605bfb835a9b811d5d36c3
 
 
 --- システム情報 ---
@@ -37,13 +33,13 @@ C:\Users\k_tasaka\Desktop\組み込み実習3\RL78_Sample2\DefaultBuild\RL78_Sam
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *メモリ使用量
  *プライベート・ワーキング・セット
-  482 MB
+  348 MB
  *GDIオブジェクト数
-  2985
+  2431
  *USERオブジェクト数
-  2176
+  1631
  *開いているファイル
-  22 editors, 22 files, 211 KB
+  6 editors, 6 files, 67 KB
 
 --- ビルド・ツール・プラグイン情報 ---
 RH850ビルド・ツールCC-RH用プラグイン
@@ -179,7 +175,7 @@ IronPythonコンソール・プラグイン
   DeviceInformation.dll
 
 --- メイン・プロジェクト情報 ---
-C:\Users\k_tasaka\Desktop\組み込み実習3\RL78_Sample2\RL78_Sample2.mtpj
+C:\Users\k_tasaka\Desktop\組込み\rl78_sample2\RL78_Sample2\RL78_Sample2.mtpj
 マイクロコントローラ情報
  *R5F1058A
   *ファイル名: バージョン

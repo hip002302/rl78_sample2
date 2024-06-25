@@ -51,7 +51,8 @@ Typedef definitions
 /*******************************************************************************
 Imported global variables and functions (from other files)
 *******************************************************************************/
-
+UCHAR beforeValue = 0x00;
+UCHAR change_to_dot_Count = 0x00;
 /*******************************************************************************
 Exported global variables and functions (to be accessed by other files)
 *******************************************************************************/
@@ -793,14 +794,20 @@ UCHAR  IC_74HC4511_Evaluate( UCHAR State, UCHAR A_in, UCHAR B_in, UCHAR C_in, UC
 			break;
 		case 3:
 			ucValue = ByteMemGet(g74HC4511_LastNum, g74HC4511_Count);
-			
 			break;
 		default:
 			ucValue = 10;
 			break;
 	}
-	
-	if (ucValue > 10) ucValue = 10;
+	if (ucValue != beforeValue){
+		beforeValue = ucValue;
+		if(ucValue == 0) {
+		  change_to_dot_Count++;
+		}
+	}
+	if ( change_to_dot_Count > 0) {
+		return (ucRet[ucValue] | 0x01);
+	}
 	return ucRet[ucValue];
 }
 
